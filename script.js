@@ -69,24 +69,24 @@ for (let i = Random.length-1; i <Random.length; i++){
 }
 */
 //7------------------------------
-/******************
-let Array = [];
-
-
-
-while(true) {
-let a = +prompt('Введите числа');
+/*
+let Arr = [];
+if (true) {
+let a = prompt('Введите числа');
    
-    if (a === null && typeof a === "undefined"){ 
-        console.log(typeof a);
-   
-    } else {Array.push(a); 
-        console.log(Array);
+    
+    Arr.push(a); 
+        
+console.log(Arr);
+    } 
 
-    }
+*/
+//8------------------------------
+/*
+let Arr = [12, false, 'Текст', 4, 2, -5, 0];
+console.log(Arr.reverse());
+let i = Arr.length; 
+while( i >= 0, i--) {
+    console.log(Arr[i]);
 }
-
-
-
-
-    */
+*/
