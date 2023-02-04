@@ -90,3 +90,17 @@ while( i >= 0, i--) {
     console.log(Arr[i]);
 }
 */
+let Arr = [5,9,21, , ,9,78, , , ,6];
+let SummElem = 0;
+for (let i = 0; i <= Arr.length; i++) {
+    SummElem =    Arr.filter(el => el === 78);
+    }
+console.log(SummElem);
+
+   
+   
+   /*
+    if(Arr.includes() === true){
+
+SummElem = SummElem +Arr.includes(;
+*/
