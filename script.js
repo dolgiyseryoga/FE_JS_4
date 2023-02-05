@@ -90,15 +90,41 @@ while( i >= 0, i--) {
     console.log(Arr[i]);
 }
 */
-let Arr = [5,9,21, , ,9,78, , , ,6];
-let SummElem = 0;
-for (let i = 0; i <= Arr.length; i++) {
-    SummElem =    Arr.filter(el => el === 78);
-    }
-console.log(SummElem);
+let Arr = [5,9,21,,,9,78,,,,6];
 
-   
-   
+let Summ = [];
+
+for (let i = 0; i <= Arr.length; i++) {
+
+var a2 = Arr.filter(function(item) { return  item === 9 ; });
+Summ.push(a2);
+break;
+}
+Summ = (Summ.join());
+
+Summ = (Summ.split(','));
+console.log(Summ.length);
+/*
+
+
+
+
+
+
+
+
+
+for (let i = 0; i <= Arr.length; i++) {
+    if (Arr[3] === undefined) {
+        console.log('array[2] is undefined'); // true
+        Summ.push(element);
+    } else {
+        break;
+     
+    }
+}
+    console.log(Summ);   
+ */
    /*
     if(Arr.includes() === true){
 
