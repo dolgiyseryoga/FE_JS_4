@@ -69,18 +69,7 @@ for (let i = Random.length-1; i <Random.length; i++){
 }
 */
 //7------------------------------
-/*
-let Arr = [];
-if (true) {
-let a = prompt('Введите числа');
-   
-    
-    Arr.push(a); 
-        
-console.log(Arr);
-    } 
 
-*/
 //8------------------------------
 /*
 let Arr = [12, false, 'Текст', 4, 2, -5, 0];
@@ -90,43 +79,18 @@ while( i >= 0, i--) {
     console.log(Arr[i]);
 }
 */
-let Arr = [5,9,21,,,9,78,,,,6];
-
-let Summ = [];
-
-for (let i = 0; i <= Arr.length; i++) {
-
-var a2 = Arr.filter(function(item) { return  item === 9 ; });
-Summ.push(a2);
-break;
-}
-Summ = (Summ.join());
-
-Summ = (Summ.split(','));
-console.log(Summ.length);
+//9------------------------------
 /*
-
-
-
-
-
-
-
-
-
-for (let i = 0; i <= Arr.length; i++) {
-    if (Arr[3] === undefined) {
-        console.log('array[2] is undefined'); // true
-        Summ.push(element);
-    } else {
-        break;
-     
-    }
+let Arr = [5,9,21,,,9,78,,,,6];
+let Summ = [];
+for (let i = 0; i < Arr.length; i++) {
+  if (Arr[i] === undefined) {
+    Summ.push(1); 
+  }
 }
-    console.log(Summ);   
- */
-   /*
-    if(Arr.includes() === true){
-
-SummElem = SummElem +Arr.includes(;
+console.log(Summ.length);
 */
+
+//10------------------------------
+
+//11------------------------------
